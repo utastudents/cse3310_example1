@@ -1,6 +1,6 @@
 
 
-CFLAGS+=-Wall -Wextra -std=c17 -g -O0
+CFLAGS+=-Wall -Wextra -std=gnu17 -g -O0
 
 
 convert: convert.o
