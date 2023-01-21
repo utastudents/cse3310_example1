@@ -1,8 +1,4 @@
 #include <stdio.h>
-// for some reason this define is required for clock_gettime()
-//
-// see also, "get off my lawn..."
-#define __USE_POSIX199309
 #include <time.h>
 
 double diffTime(struct timespec t0, struct timespec t1)
